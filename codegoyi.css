@@ -1,0 +1,157 @@
+ *{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+ }
+header{
+    display: block;
+    unicode-bidi: isolate;
+    
+}
+#one{
+    background-color: rgb(140, 94, 37);
+    color: white;
+    width: 100vw;
+    height: 8vh;
+    display: flex;
+    justify-content: end;
+    align-items: center; 
+    font-size: 20px;
+    position: fixed;
+    left: 0;
+}
+#l{
+    position: absolute;
+    left: 0;
+    margin: 20px;
+}
+ #p{
+     position: absolute;
+    left: 0;
+    margin: 40px; 
+ }
+ a{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+    color: white;
+}
+
+#hi{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    
+}
+ 
+
+#home{
+    background: url(https://static.vecteezy.com/system/resources/thumbnails/031/623/597/small/background-for-productgraphy-ai-generated-photo.jpg)no-repeat center/cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#About{
+    background: url(https://static.vecteezy.com/system/resources/thumbnails/031/623/597/small/background-for-productgraphy-ai-generated-photo.jpg)no-repeat center/cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#Education{
+    background: url(https://static.vecteezy.com/system/resources/thumbnails/031/623/597/small/background-for-productgraphy-ai-generated-photo.jpg)no-repeat center/cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#Skill{
+    background: url(https://static.vecteezy.com/system/resources/thumbnails/031/623/597/small/background-for-productgraphy-ai-generated-photo.jpg)no-repeat center/cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#Contact{
+    background: url(https://static.vecteezy.com/system/resources/thumbnails/031/623/597/small/background-for-productgraphy-ai-generated-photo.jpg) no-repeat center/cover;
+    height: 100vh;
+    width: 100vw;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    gap:15px;
+}
+
+#Contact h1{
+    font-size:40px;
+    text-shadow:2px 2px 5px black;
+}
+
+#Contact label{
+    font-size:20px;
+    font-weight:bold;
+}
+
+#Contact input{
+    width:300px;
+    padding:12px;
+    border:none;
+    border-radius:8px;
+    font-size:16px;
+    outline:none;
+}
+
+button{
+    padding:12px 35px;
+    border:none;
+    border-radius:8px;
+    font-size:20px;
+    font-weight:bold;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+button:hover{
+    background-color:aqua;
+    color:rgb(44,44,74);
+    transform:scale(1.05);
+}
+
+p{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+#foot{
+    background-color: rgb(140, 94, 37);
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-size: 20px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+img{
+   margin-right: 70px;
+   gap: 10px;
+}
